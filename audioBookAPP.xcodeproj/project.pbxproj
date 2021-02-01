@@ -13,6 +13,8 @@
 		94333BDE25B531E800122655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94333BDC25B531E800122655 /* Main.storyboard */; };
 		94333BE025B531E900122655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94333BDF25B531E900122655 /* Assets.xcassets */; };
 		94333BE325B531E900122655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94333BE125B531E900122655 /* LaunchScreen.storyboard */; };
+		94333BEC25B5326400122655 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94333BEB25B5326400122655 /* SpeechService.swift */; };
+		94CA0CA625BAC4DA00260882 /* 1396413.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94CA0CA525BAC4DA00260882 /* 1396413.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		94333BDF25B531E900122655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94333BE225B531E900122655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94333BE425B531E900122655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94333BEB25B5326400122655 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		94CA0CA525BAC4DA00260882 /* 1396413.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1396413.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 				94333BD625B531E800122655 /* AppDelegate.swift */,
 				94333BD825B531E800122655 /* SceneDelegate.swift */,
 				94333BDA25B531E800122655 /* ViewController.swift */,
+				94333BEB25B5326400122655 /* SpeechService.swift */,
 				94333BDC25B531E800122655 /* Main.storyboard */,
 				94333BDF25B531E900122655 /* Assets.xcassets */,
+				94CA0CA525BAC4DA00260882 /* 1396413.jpg */,
 				94333BE125B531E900122655 /* LaunchScreen.storyboard */,
 				94333BE425B531E900122655 /* Info.plist */,
 			);
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94333BE325B531E900122655 /* LaunchScreen.storyboard in Resources */,
+				94CA0CA625BAC4DA00260882 /* 1396413.jpg in Resources */,
 				94333BE025B531E900122655 /* Assets.xcassets in Resources */,
 				94333BDE25B531E800122655 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 				94333BDB25B531E800122655 /* ViewController.swift in Sources */,
 				94333BD725B531E800122655 /* AppDelegate.swift in Sources */,
 				94333BD925B531E800122655 /* SceneDelegate.swift in Sources */,
+				94333BEC25B5326400122655 /* SpeechService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +301,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.audioBookAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +321,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = Iseryuiseki.audioBookAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
